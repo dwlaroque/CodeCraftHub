@@ -1,5 +1,5 @@
 const express = require('express');
-const { login } = require('../controllers/authController'); // Correct import
+const { login } = require('../controllers/authController'); // Correctly import the login function
 const { loginValidation, validate } = require('../middleware/validationMiddleware');
 
 const router = express.Router();
