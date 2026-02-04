@@ -1,0 +1,41 @@
+{
+    "name": "user-management-service",
+    "version": "1.0.0",
+    "description": "A Node.js service for user management with authentication and role-based access control.",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "test": "jest --runInBand",
+        "test:watch": "jest --watch"
+    },
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-validator": "^7.3.1",
+        "jsonwebtoken": "^9.0.3",
+        "mongoose": "^9.1.5",
+        "simple-update-notifier": "^2.0.0",
+        "tar": "^7.5.7"
+    },
+    "devDependencies": {
+        "jest": "^27.5.1",
+        "nodemon": "^2.0.22",
+        "supertest": "^6.3.4"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "keywords": [
+        "user",
+        "management",
+        "authentication",
+        "authorization",
+        "nodejs",
+        "express",
+        "mongodb"
+    ],
+    "author": "Don Warlon Lord Roque",
+    "license": "Mapua University"
+}
